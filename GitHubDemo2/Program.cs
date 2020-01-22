@@ -11,7 +11,9 @@ namespace week2_exercise
         age = 46;
         height = 61;
         //Max Heart reate is equal to 220 -age 
-        Console.WriteLine("I am "+ age +" Years old,"+ "My max heart rate is  " +  (220 -age) + " I am  " + height + "  inches tall");
-                  }
+        Console.WriteLine("I am "+ age +" Years old,"+ "My max heart rate is  " +  (220 -age) + "."+ " I am  " + height + "  inches tall");
+            Console.ReadLine();      
+        
+        }
     }
 }
